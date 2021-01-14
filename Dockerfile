@@ -153,4 +153,4 @@ COPY xrdp.ini /etc/xrdp/xrdp.ini
 COPY autostartup.sh /root/
 CMD ["/bin/bash", "/root/autostartup.sh"]
                                     
-EXPOSE 3389 22
+EXPOSE 3389 22 80
