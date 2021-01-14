@@ -34,6 +34,7 @@ RUN cd /root && \
         ubuntu-mate-icon-themes \
         ubuntu-mate-themes \
         tightvncserver \
+        firefox \
         pulseaudio && \
     apt-get install --no-install-recommends -yqq \
         supervisor \
